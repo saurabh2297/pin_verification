@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 5000
 const jwt = require('jsonwebtoken')
-const JWT_SECRET="ryrgwkejtowhfjhsbflew"
+
 var bodyParser = require('body-parser')
 
 
